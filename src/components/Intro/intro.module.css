@@ -1,0 +1,24 @@
+.introContainer {
+    margin-bottom: 100px;
+}
+
+.introTitle {
+    font-size: var(--fontSize-7);
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-bottom: 2.5rem;
+}
+
+.introText {
+    color: var(--color-secondary);
+    /* font-weight: 500; */
+    line-height: 1.45em;
+    margin-bottom: 1.4em;
+}
+
+@media screen and (max-width: 425px) {
+    .introTitle {
+        margin-top: 0;
+        font-size: var(--fontSize-5);
+    }
+}

@@ -2,8 +2,12 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby Starter Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Nikita Makhov`,
+      summary: `I move pixels and build opensource apps.`,
+      intro: [
+        'I code different kinds of staff from simple static sites to complex user interfaces. I like building apps with React, Vue or Svelte.',
+        'This homepage is my zen garden, the place, where I store my notes, recent projects and useful links and where I experiment with latest frontend technologies.'
+      ]
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,

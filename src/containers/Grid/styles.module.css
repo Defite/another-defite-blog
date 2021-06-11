@@ -1,0 +1,14 @@
+.grid {
+    display: grid;
+    grid-template-columns:
+        [full-start] 0.5fr 1fr 1fr [main-start] 1fr [center-start]repeat(5, 1fr)
+        [center-end] 1fr [main-end] 1fr 1fr 0.5fr [full-end];
+}
+
+@media screen and (max-width: 425px) {
+    .grid {
+        grid-template-columns:
+        [full-start] 1fr [main-start] 1fr [center-start]repeat(8, 1fr)
+        [center-end] 1fr [main-end] 1fr [full-end];
+    }
+}

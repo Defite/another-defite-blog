@@ -1,0 +1,29 @@
+.navList {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.navItem {
+    margin-left: 40px;
+    font-weight: 600;
+}
+
+.navLink {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.navLink:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 425px) {
+    .navList {
+        justify-content: space-between;
+    }
+
+    .navItem {
+        margin-left: 0;
+    }
+}

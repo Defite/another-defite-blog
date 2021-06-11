@@ -1,0 +1,3 @@
+.container {
+    grid-column: main-start/main-end;
+}
